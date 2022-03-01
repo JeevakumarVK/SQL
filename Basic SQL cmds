@@ -34,8 +34,7 @@ INSERT INTO departments(student_id,name)
 VALUES('1', 'IT'),
 ('2','ECE'),
 ('3','EEE'),
-('4','CSE'),
-('5','CIVIL');
+('4','CSE');
 
 CREATE TABLE courses(
 id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
@@ -50,8 +49,7 @@ INSERT INTO courses(name,staff_handling,start_year,department_id)
 VALUES('DBMS','UDHAYA','2016','1'),
 ('RDBMS','SATHYA','2021','2'),
 ('SQL','MOHAN','2023','3'),
-('MYSQL','SENTHIL','2019','4'),
-('JAVA','SHAMUGAM','2018','5');
+('MYSQL','SENTHIL','2019','4');
 SELECT*FROM courses;
 
 --- UPDATE DATA 2021-2022
